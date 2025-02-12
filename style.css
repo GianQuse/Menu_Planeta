@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorPrincipal {
+    width: 100%;
+    max-width: 768px;
+}
+
+/*CONTENEDOR IMAGEN LOCAL*/
+
+.contenedorImgLocal {
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+
+.imgLocal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.contenedorLogo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.imgLogo {
+    height: 100%;
+    width: 100%;
+}
+
+/*---------------------------------------------------------*/
+
+/*BOTON CARTA PRINCIPAL*/
+
+.contenedorBotonCarta {
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    background-color: white;
+    border-radius: 100% 100% 0 0;
+    position: relative;
+    z-index: 99;
+}
+
+.botonCarta {
+    width: 65%;
+    padding: 10px 0;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.3)
+}
+
+/*---------------------------------------------------------*/
+
+/*CONTENEDOR DE PROMOCIONES*/
+
+.contenedorPromos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorPromos h2 {
+    margin: 5px 0 10px 0;
+}
+
+.contenedorImgPromo {
+    width: 85%;
+    height: 200px;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contenedorImgPromo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.contenedorPromos p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*---------------------------------------------------------*/
+
+/*FOOTER*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedorRedes {
+    display: flex;
+    justify-content: center;
+}
+
+.iconosRedes {
+    width: 35px;
+    margin: 20px 25px;
+    cursor: pointer;
+    filter: invert();
+}
+
+/*---------------------------------------------------------*/
