@@ -81,14 +81,17 @@ body {
 
 /*CONTENEDOR DE PROMOCIONES*/
 
-.contenedorPromos, .contenedorCarta {
+.contenedorPromos,
+.contenedorCarta,
+.contenedorVariedades {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contenedorPromos h2, .contenedorCarta h2 {
+.contenedorPromos h2,
+.contenedorCarta h2 {
     margin: 5px 0 10px 0;
 }
 
@@ -102,14 +105,16 @@ body {
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.contenedorImgPromo img, .contenedorImgCarta img {
+.contenedorImgPromo img,
+.contenedorImgCarta img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7);
 }
 
-.contenedorPromos p, .contenedorCarta p {
+.contenedorPromos p,
+.contenedorCarta p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -147,7 +152,8 @@ footer {
 
 /*---------------------------------------------------------*/
 
-.contenedorImgCarta{
+.contenedorImgCarta {
+    text-align: center;
     width: 85%;
     height: 80px;
     margin: 10px 0;
@@ -156,3 +162,87 @@ footer {
     border-radius: 30px;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* CONTENEDOR VARIEDADES -------------------------------- */
+
+.contenedorBlack {
+    position: relative;
+    background-color: #333;
+    width: 100%;
+    height: 65px;
+}
+
+.contenedorVariedades h2 {
+    margin: 10px 0 5px 0;
+}
+
+.divider {
+    width: 70%;
+    height: 2px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+}
+
+.contenedorVariedadI {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorVariedadD{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contImgVariedadI {
+    width: 30%;
+    overflow: hidden;
+    margin-left: 10px;
+    filter: drop-shadow(-5px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.contImgVariedadD {
+    width: 30%;
+    overflow: hidden;
+    margin-right: 10px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.imgPlato {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contTextoVariedadI {
+    width: 60%;
+    text-align: end;
+    margin-right: 15px;
+}
+
+.contTextoVariedadD {
+    width: 60%;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.plato {
+    font-size: 1.2rem;
+}
+
+.ingredientes {
+    font-size: 1rem;
+}
+
+.precio {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/*---------------------------------------------------------*/
