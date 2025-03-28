@@ -76,11 +76,9 @@ const menu = {
         { nombre: "TRIPLE", descripcion: "LOMITO, QUESO, LECHUGA Y TOMATE", precio: [11800], imagen: "" },
     ],
     milanesas: [
-        { nombre: "", descripcion: "", precio: [], imagen: "" },
-        { nombre: "", descripcion: "", precio: [], imagen: "" },
-        { nombre: "", descripcion: "", precio: [], imagen: "" },
-        { nombre: "", descripcion: "", precio: [], imagen: "" },
-        { nombre: "", descripcion: "", precio: [], imagen: "" },
+        { nombre: "MILANESA", descripcion: "MILANESA VACUNA O POLLO, MAYONESA Y PAPAS FRITAS", precio: [13800], imagen: "" },
+        { nombre: "MILANESA A LA NAPOLITANA", descripcion: "CON PAPAS FRITAS", precio: [16300], imagen: "" },
+        { nombre: "MILANESA A CABALLO", descripcion: "CON HUEVO FRITO, QUESO Y PAPAS FRITAS", precio: [16300], imagen: "" },
     ],
     pizzanesas: [
         { nombre: "", descripcion: "", precio: [], imagen: "" },
